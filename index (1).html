@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vinarija Karić</title>
+<meta name="description" content="Vinarija Karić — butik vinarija sa padina planine Cer. Adria linija: belo i crveno vino od autohtonih balkanskih sorti.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/karic-grb.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+
+  <!-- ============================= HEADER ============================= -->
+  <header class="header">
+    <div class="header-inner wrap">
+      <div class="brand" data-go="home">
+        <span class="imgslot crest contain">
+          <img src="assets/karic-grb.png" alt="Grb Vinarije Karić" onerror="this.closest('.imgslot').classList.add('no-img')">
+          <span class="ph"></span>
+        </span>
+        <div class="brand-name">VINARIJA<br>K A R I Ć</div>
+      </div>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Meni" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="site-nav">
+        <span data-nav="home"     data-go="home">POČETNA</span>
+        <span data-nav="adria"    data-section="adria-sekcija">ADRIA LINIJA</span>
+        <span data-nav="vinarija" data-section="vinarija-sekcija">VINARIJA</span>
+        <span data-nav="vinar"    data-section="vinar-sekcija">VINAR</span>
+        <span data-nav="kontakt"  data-section="kontakt-sekcija">KONTAKT</span>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============================= HOME VIEW ============================= -->
+  <div id="home-view">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div id="hero-parallax">
+        <span class="imgslot" style="position:absolute;inset:0;">
+          <img src="assets/hero.jpg" alt="Adria vino u zlatnom satu" onerror="this.closest('.imgslot').classList.add('no-img')">
+          <span class="ph">Hero fotografija<br>(assets/hero.jpg)</span>
+        </span>
+      </div>
+      <div class="hero-overlay"></div>
+      <div id="hero-content" class="hero-content">
+        <h1>„Povratak vina u zaboravljenu <em>Pocerinu</em>"
+          <div class="hero-source">— VINO.RS</div>
+        </h1>
+      </div>
+    </section>
+
+    <!-- Adria linija -->
+    <section id="adria-sekcija" class="adria">
+      <div class="wrap section-pad grid-2">
+        <div class="frame">
+          <span class="imgslot" style="width:100%;aspect-ratio:1;">
+            <img src="assets/adria-duo.jpg" alt="Adria belo i crveno" onerror="this.closest('.imgslot').classList.add('no-img')">
+            <span class="ph">Adria belo i crveno — zajednička fotografija<br>(assets/adria-duo.jpg)</span>
+          </span>
+        </div>
+        <div>
+          <h2 class="h2">Adria Linija</h2>
+          <div class="flag-bars" style="margin:24px 0 20px;">
+            <div class="b-blue"></div><div class="b-white"></div><div class="b-red"></div>
+          </div>
+          <p class="lead">Dva vina. Dve duše. Jedna baština — boje zastave utkane u svaku kap.</p>
+          <div class="wine-card" data-go="belo" style="margin-bottom:20px;">
+            <div class="accent blue"></div>
+            <div class="row">
+              <div>
+                <div class="name">Adria belo</div>
+                <div class="comp">Grašac 50% · Malvazija 35% · Tamjanika 15%</div>
+              </div>
+              <span class="more">SAZNAJ VIŠE →</span>
+            </div>
+          </div>
+          <div class="wine-card" data-go="crveno">
+            <div class="accent red"></div>
+            <div class="row">
+              <div>
+                <div class="name">Adria crveno</div>
+                <div class="comp">Frankovka 70% · Prokupac 15% · Marselan 15%</div>
+              </div>
+              <span class="more">SAZNAJ VIŠE →</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap divider"><div></div></div>
+
+    <!-- Vinarija -->
+    <section id="vinarija-sekcija" class="section-pad">
+      <div class="prose">
+        <h2 class="h2">"Balkan - Novi, stari vinski svet."</h2>
+        <p>Vinarija Karić je butik vinarija smeštena u centralnoj Srbiji, na blagim padinama planine Cer. Naša filozofija, kada je reč o vinu, jeste održivost – kako u vinogradu, tako i u podrumu. Trudimo se da budemo što prirodniji i odgovorniji prema našem vinu i zemlji kako bismo našim potrošačima pružili najbolje moguće vinsko iskustvo. Sav rad u podrumu obavlja se ručno, pa se čak i presovanje grožđa vrši tradicionalnom ručnom presom. Upravo zbog toga, naša proizvodnja iznosi svega nekoliko hiljada boca.</p>
+        <p>Vizija vinarije Karić za čitav Balkan jeste prihvatanje i negovanje autohtonih sorti grožđa. Na Balkansko poluostrvo gledamo kao na „novi, stari vinski svet" sa ogromnim vinskim nasleđem i raskošnom paletom drevnih sorti grožđa, koje su još uvek tajnovite i nedovoljno prepoznate u svetu vrhunskih vina. Naš cilj je da predstavimo sve ono što Balkan ima da ponudi.</p>
+      </div>
+    </section>
+
+    <div class="wrap divider"><div></div></div>
+
+    <!-- Vinar -->
+    <section id="vinar-sekcija" class="vinar wrap section-pad grid-2">
+      <div>
+        <h2 class="h2">Vizija rođena iz <em>ljubavi prema zemlji</em></h2>
+        <p>Stevan Karić, vlasnik i vinar, poseduje diplomu poljoprivrednih nauka u oblasti vinogradarstva, kao i dugogodišnje iskustvo u vinskom biznisu u Srbiji i regionu.</p>
+        <p>On je jedini enolog u regionu koji se bavi autohtonim sortama grožđa tako što od njih pravi kupažu (blend). Na tim temeljima kreirao je brend i vino pod nazivom ADRIA.</p>
+        <p>ADRIA slavi različitost, autentičnost stavlja u prvi plan i ne prihvata osrednjost. Već dokazane autohtone sorte regiona u kupaži donose balans i harmoniju ukusa i mirisa.</p>
+      </div>
+      <div class="frame">
+        <div class="mirror">
+          <span class="imgslot" style="width:100%;aspect-ratio:1;">
+            <img src="assets/founder.jpg" alt="Stevan Karić u vinogradu" style="object-position:50% 54%;" onerror="this.closest('.imgslot').classList.add('no-img')">
+            <span class="ph">Fotografija osnivača u vinogradu<br>(assets/founder.jpg)</span>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap divider"><div></div></div>
+
+    <!-- Kontakt -->
+    <section id="kontakt-sekcija" class="kontakt">
+      <div class="wrap section-pad">
+        <div class="head">
+          <h2 class="h2">Pošaljite nam <em>poruku, sugestiju ili pohvalu</em></h2>
+        </div>
+        <div class="grid-2">
+          <div class="frame">
+            <iframe src="https://www.google.com/maps?q=Cerska%20127%2C%20Varna%2015232%2C%20Serbia&output=embed" loading="lazy" title="Vinarija Karić — mapa"></iframe>
+          </div>
+          <div class="form-col">
+            <div id="form-ok" class="form-ok hidden">
+              <div class="t">Hvala vam!</div>
+              <div class="s">Vaša poruka je poslata. Odgovorićemo u najkraćem roku.</div>
+            </div>
+            <form id="contact-form" class="form" novalidate>
+              <div class="field-row">
+                <div class="field">
+                  <label for="f-ime">IME</label>
+                  <input id="f-ime" name="ime" type="text" autocomplete="name">
+                  <div class="err" data-err="ime"></div>
+                </div>
+                <div class="field">
+                  <label for="f-email">EMAIL</label>
+                  <input id="f-email" name="email" type="email" autocomplete="email">
+                  <div class="err" data-err="email"></div>
+                </div>
+              </div>
+              <div class="field">
+                <label for="f-poruka">PORUKA</label>
+                <textarea id="f-poruka" name="poruka" rows="7"></textarea>
+                <div class="err" data-err="poruka"></div>
+              </div>
+              <button type="submit" class="btn-send">POŠALJITE</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ============================= DETAIL VIEW ============================= -->
+  <div id="detail-view" class="detail hidden">
+    <div class="wrap detail-inner">
+      <div class="crumb">
+        <span class="link" data-section="adria-sekcija">ADRIA LINIJA</span>
+        <span class="sep">/</span>
+        <span id="d-crumb"></span>
+      </div>
+      <div class="detail-hero">
+        <div>
+          <span id="d-bottle" class="imgslot contain bottle">
+            <img id="d-bottle-img" src="" alt="" onerror="this.closest('.imgslot').classList.add('no-img')">
+            <span class="ph" id="d-bottle-ph"></span>
+          </span>
+        </div>
+        <div>
+          <div class="kicker" id="d-kicker">ADRIA LINIJA</div>
+          <h1 id="d-name"></h1>
+          <div class="sub" id="d-sub"></div>
+          <div class="sastav" id="d-sastav"></div>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="cell"><div class="lab">ALKOHOL</div><div class="val" id="d-alk"></div></div>
+        <div class="cell"><div class="lab">ŠEĆERI</div><div class="val" id="d-sec"></div></div>
+        <div class="cell"><div class="lab">UKUPNE KISELINE</div><div class="val" id="d-kis"></div></div>
+        <div class="cell"><div class="lab">PH</div><div class="val" id="d-ph"></div></div>
+      </div>
+      <div class="detail-body">
+        <div>
+          <div class="lab">O VINU</div>
+          <p id="d-desc"></p>
+          <div class="lab mt">NOTE DEGUSTACIJE</div>
+          <div class="note" id="d-note"></div>
+        </div>
+        <div>
+          <div class="lab">VINIFIKACIJA</div>
+          <p class="mb" id="d-vinif"></p>
+          <div class="lab">GEOGRAFSKO POREKLO</div>
+          <p id="d-geo"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================= FOOTER ============================= -->
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span class="imgslot crest contain">
+        <img src="assets/karic-grb.png" alt="Grb Vinarije Karić" onerror="this.closest('.imgslot').classList.add('no-img')">
+        <span class="ph"></span>
+      </span>
+      <div class="name">VINARIJA KARIĆ</div>
+      <div class="fnav">
+        <span data-go="home">POČETNA</span>
+        <span data-section="adria-sekcija">ADRIA LINIJA</span>
+        <span data-section="vinarija-sekcija">VINARIJA</span>
+        <span data-section="vinar-sekcija">VINAR</span>
+        <span data-section="kontakt-sekcija">KONTAKT</span>
+      </div>
+      <div class="contact">karic.winery@gmail.com · +381 66 354 250 · Cerska 127, Varna 15232</div>
+      <div class="flag-bars">
+        <div class="b-blue"></div><div class="b-white"></div><div class="b-red"></div>
+      </div>
+      <div class="copy">© 2026 Vinarija Karić. Sva prava zadržana.</div>
+    </div>
+  </footer>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
