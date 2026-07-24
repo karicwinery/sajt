@@ -12,7 +12,7 @@
       sub: 'Miris mediterana u boci vina',
       img: 'assets/belo.png', imgPh: 'Adria belo — velika fotografija boce (assets/belo.png)',
       desc: 'ADRIA belo je autentično belo vino sa niskim sadržajem sulfita, napravljeno od autohtonih balkanskih sorti grožđa: srpske tamjanike, istarske malvazije i grašca. Odlikuje se zlatnom bojom sa zelenkastim odsjajem, bistro je i ima guste vinske suze. Na prvi miris osvojiće vas aroma zove i veoma intenzivni mirisi tropskog voća. Ukus savršeno prati intenzitet arome, što pokazuje da je vino u potpunom balansu. Veoma je hrskavo, sa sočnim aromama dinje, karamele i meda, dok se u dugoj završnici osećaju citrusi poput limuna i limete, i na samom kraju, osvežavajuća mineralnost.',
-      alk: '12%', sec: '2.1 g/l', kis: '5.6 g/l', ph: '3.55',
+      alk: '13%', sec: '2.1 g/l', kis: '5.6 g/l', ph: '3.55',
       vinif: 'Berba ručno u zoru. Maceracija 6 sati pri niskoj temperaturi. Hladna fermentacija u inox tankovima 15°C, nakon čega vino odležava 9 meseci na finom talogu a zatim još 3 meseca u boci.',
       geo: 'Vinogradi na jugoistočnim padinama planine Cer, 200m nadmorske visine, tlo je glinasta ilovača.',
       sastav: 'Grašac 50%, Malvazija 35%, Tamjanika 15%.',
